@@ -1,0 +1,37 @@
+/* .footer{
+    display: flex;
+    width: 1440;
+    height: 200px;
+    border:1px solid  red;
+    justify-content: space-between;
+} */
+
+
+
+
+
+/* .links {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 127px;
+    margin-top: 79px;
+
+} */
+
+    /* // height: 143%;
+    // margin-top: -15%;
+    // margin-left: -20%; */
+.greenCartoon{
+    width: 97px;
+    height: 78.46px;
+    background-image: url('../../image/green_cartoon.png');
+    transform: rotateY(180deg);
+    background-repeat: no-repeat;
+}
+.yellowCartoon{
+    width: 86px;
+    height: 88.32px;
+    background-image: url('../../image/yellov_half_cartoon.png');
+    transform: rotateX(0deg);
+}

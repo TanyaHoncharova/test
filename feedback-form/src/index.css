@@ -1,0 +1,70 @@
+
+/* body {
+  background-color: var(--white);
+  background-image: url('./image/Ellipse\ 31.png'), url('./image/cloud.png'), url('./image/cloud.png'), url('./image/cloud_small.png');
+  background-size: 88;
+  
+  background-position: top 21px left 55%, top 30% left, ;
+  background-repeat: no-repeat;
+} */
+
+
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+/* :root {
+
+  --bgc_body: E5E5E5;
+  --bgc_footer: D8D8D8;
+  --yellow: FAD34F;
+  --pink: F472B7;
+  --green: 46EBB0;
+  --cloud_color: C6C6C6;
+  --title_text: 3E3E3E;
+  --form_text: 2D2D2D;
+  --white: FFFFFF;
+}
+
+
+
+
+body {
+  background-color: var(--bgc_body);
+  background-image: url('./image/CapturaMap.png');
+
+}
+
+.form_btn {
+  background-color: var(--yellow);
+  height: 73px;
+  width: 218;
+}
+
+.footer {
+  height: 200px;
+  width: 100%;
+  background-color: var(--bgc_footer);
+
+}
+
+.red_cartoon {
+  height: 214px;
+  width: 208px;
+}
+
+.yellow_cartoon {
+    height: 88.32px;
+  width: 85.84px;
+  
+} */

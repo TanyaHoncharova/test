@@ -1,0 +1,135 @@
+/* .App {
+      margin:0;
+    padding:0;
+     box-sizing: border-box;
+}  */
+
+/* :root {
+
+  --bgc_body: #E5E5E5;
+  --bgc_footer: #D8D8D8;
+  --yellow: #FAD34F;
+  --opacity_yellow: #FAD34F;
+  --pink: #F472B7;
+  --green: #46EBB0;
+  --cloud_color: #C6C6C6;
+  --title_text: #3E3E3E;
+  --form_text: #2D2D2D;
+  --white: #FFFFFF;
+  -- border_color: #DCDCDC;
+
+} */
+
+ /* body { */
+   /* display: flex;
+   flex-direction: row; */
+  /* background-color: var(--white); */
+  /* background-image: url('./image/Ellipse31.png'),
+  url('./image/cloud.png'),
+  url('./image/cloud.png'),
+  url('./image/cloud.png'),
+  url('./image/cloud.png'),
+  url('./image/cloud.png'),
+  url('./image/cloud.png'),
+  url('./image/cloud.png'),
+  url('./image/cloud.png'),
+  url('./image/cloud.png'),
+  url('./image/cloud.png')
+  ; */
+
+
+  /* background-size: 87px, 207px, 170px, 132px, 288px, 219px, 219px, 172px, 245px, 138px ;
+  background-repeat: no-repeat;
+  background-position:top 21px left 714px,
+   top 500px right 4%,
+   top 646px left 150.76%,
+   top 61.08% left 7.01%,
+   top 67.46% left 9.79%,
+   top 8.95% left 53.82%,
+   top 55.5% left 23.82%,
+   top 35.46% left -6.39%,
+   top 35.46% left -6.39%,
+   top 35.46% left -6.39%
+; */
+/* background-image: url('./image/Cloud1.png');
+} 
+
+.main{
+  display: flex;
+  width: 100%;
+} */
+/* .header_yellow_cartoon { */
+  /* position: absolute; */
+/* left: 2.01%; */
+/* right: 91.85%; */
+/* top: 6.55%;
+bottom: 85.84%;
+background-image: url('./image/yellow_cartoon.png') ;
+transform: rotate(-35.19deg);
+} */
+
+
+/* 
+.map_box{
+  height: 924px;
+  width: 100% ;
+
+  background-image: url('./image/CapturaMap.png');
+}
+
+.form_box{
+  height: 563px;
+  width: 575px;
+  margin-left: 147px;
+  }
+
+ .form_title {
+font-family: Apercu Arabic Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 130%;
+color: var(--title_text);
+ } 
+
+ .form_input {
+   width: 557px;
+   height: 93px;
+
+ }
+
+.form_input_text {
+font-family: Apercu Arabic Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 32px;
+color: var(--form_text);
+ }
+
+.form_btn {
+  height: 73px;
+  width: 218;
+  border-radius: 30%;
+  color: var(--white);
+  background-color: var(--yellow);
+
+}
+
+.footer {
+  height: 200px;
+  width: 100%;
+  background-color: var(--bgc_footer);
+
+}
+
+.red_cartoon {
+  height: 214px;
+  width: 208px;
+}
+
+.yellow_cartoon {
+    height: 88.32px;
+  width: 85.84px;
+  
+} */
