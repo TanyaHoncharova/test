@@ -15,7 +15,8 @@ const StyledFooter = styled.div`
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-    max-width: 1440px;;
+
+    max-width: 100%;
     height: 200px;
     background-color: ${colors.bgc_footer};
     border: 1px solid #D8D8D8;

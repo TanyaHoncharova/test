@@ -18,12 +18,17 @@ width: 100px;
 height: 800px;
 padding: 0 0 0 -5px;
 }
+@media ${device.tablet}{
+width: 556px;
+
+}
+
 @media ${device.laptop}{
 display: flex;
 flex-direction: column;
 justify-content: flex-end;
 position: relative;
-width: 626px;
+width: 556px;
 height: 976px;
 padding: 0 0 0 -5px;
 }
@@ -45,21 +50,20 @@ const StyledTrumb = styled.div`
 @media ${device.tablet}{
 display:block;
 border-radius: 100px 0 0  100px;
-width: 100px;
+width: 100%;
 height: 800px;
 overflow: hidden;
 }
 @media ${device.laptop}{
-border-radius: 500px 0 0  500px;
+border-radius: 490px 0 0  490px;
 box-shadow: inset 0px 16px 42px ${colors.box_shadow};
-width: 626px;
+
 height: 976px;
 overflow: hidden;
 }
 @media ${device.laptopL}{
 border-radius: 500px 0 0  500px;
 box-shadow: inset 0px 16px 42px ${colors.box_shadow};
-width: 626px;
 height: 976px;
 overflow: hidden;
 }

@@ -7,7 +7,6 @@ const StyledForm = styled.form`
         width: 300px;
         padding: 0 10px;
         margin: 50px auto 30px auto ;
-        z-index:10;
     @media ${device.mobileL} {
         height: 563px;
         width: 400px;
