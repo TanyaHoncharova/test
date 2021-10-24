@@ -64,6 +64,9 @@ const StyledInput = styled.input`
     line-height: 32px;
     padding-left: 46px;
     }
+    @media ${device.laptopL} {
+        width: 557px;
+    }
 
 `;
 const StyledText = styled.textarea`

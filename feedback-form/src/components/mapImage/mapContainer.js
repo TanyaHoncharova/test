@@ -52,7 +52,7 @@ overflow: hidden;
 @media ${device.laptop}{
 border-radius: 500px 0 0  500px;
 box-shadow: inset 0px 16px 42px ${colors.box_shadow};
-width: 526px;
+width: 626px;
 height: 976px;
 overflow: hidden;
 }
