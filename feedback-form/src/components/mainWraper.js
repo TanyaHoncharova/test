@@ -1,5 +1,4 @@
 import React from 'react';
-// import reactDom from 'react-dom'
 import styled from 'styled-components';
 import colors from './helpers/var';
 import img from '../image/Cloud1.png';
@@ -16,11 +15,7 @@ background-repeat: no-repeat;
 background-position: top 3.9% left 3.7%, top 1.46% right 49.6%;
 background-size: 5.7% , 6%, 100%;
 background-color: ${colors.white};
-@media screen and (min-width: 900px) {
-  body {
-    background-color: orange;
-  }
-}
+max-width:1440px;
 `;
 
 
