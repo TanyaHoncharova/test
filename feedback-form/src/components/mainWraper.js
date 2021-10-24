@@ -14,7 +14,7 @@ pading:0px;
 background-image: url(${yellow_cartoon}), url(${Ellipe31}),url(${img});
 background-repeat: no-repeat;
 background-position: top 3.9% left 3.7%, top 1.46% right 49.6%;
-background-size: 5.7% , 6%, 100;
+background-size: 5.7% , 6%, 100%;
 background-color: ${colors.white};
 @media screen and (min-width: 900px) {
   body {

@@ -14,6 +14,7 @@ justify-content: flex-end;
 position: relative;
 width: 626px;
 height: 976px;
+padding: 0 0 0 -5px;
 `;
 
 const StyledTrumb = styled.div`

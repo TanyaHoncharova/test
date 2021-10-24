@@ -1,50 +1,62 @@
 import { Component } from 'react';
-import styles from './footer.module.css';
+// import styles from './footer.module.css';
 import In from '../../image/in.svg';
 import twitter from '../../image/twitter.svg';
 import fb from '../../image/fb.svg';
 import pinterest from '../../image/pinterest.svg';
 import red from '../../image/red.png'
-import green from  '../../image/green_cartoon.png'
+import green from '../../image/green_cartoon.png';
+import yellow from '../../image/yellow.png'
 import styled from 'styled-components';
 import colors from '../helpers/var';
 
 
 const StyledFooter = styled.div`
     display: flex;
-    width: 100%;
-    height: 210px;
-    align-items: baseline;
     justify-content: space-between;
+    box-sizing: border-box;
+    max-width: 100%x;
+    height: 200px;
     background-color: ${colors.bgc_footer};
     border: 1px solid #D8D8D8;
 `;
 
 const StyledRed = styled.div`
-overflow: hidden;
-width: 211px;
-margin-left: 4%;
+width: 200px;
+height:200px;
+margin-right: 74px;
+margin-left: 59px;
+object-fit: fill;
+
 `;
 const Img = styled.img`
-
-
+height:110%;
+overflow: hidden ;
+margin-left: -4%;
 `;
 
 const SlyledSocial = styled.div`
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  width: 127px;
-  margin-top: 79px;
-  margin-left: 74px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 127px;
+    margin-top: 79px;
+    margit-right: 764px%;
+   
 `;
-const StyledGreen = styled.div`
-    width: 100%;
-    background-image: url(${green});
-    transform: rotateY(180deg);
+const StyledSvg = styled.img`
+display:flex;
+width:100%;
+margin-right:${(props)=>(props.last ?'0':'30px')};`
+const StyledCartoon = styled.div`
+    width: 205px;
+    height: 200px;
+    background-image: url(${green}),url(${yellow});
+    transform: rotateY(180deg) 0;
     background-repeat: no-repeat;
-    margin-left:53%;
+    background-position:  left top, 150% 70% ;
 `;
+
 class Footer extends Component {
     render() {
         return(
@@ -53,14 +65,13 @@ class Footer extends Component {
             <Img src={`${red}`} alt={'red'} />
             </StyledRed>
             <SlyledSocial>
-                <img src={In} alt='linkedin'/>
-                <img src={twitter} alt='twitter' />
-                <img src={fb} alt='facebook' />
-                <img src={pinterest} alt='pinterest' />                
+                <StyledSvg src={In} alt='linkedin'/>
+                <StyledSvg src={twitter} alt='twitter' />
+                <StyledSvg src={fb} alt='facebook' />
+                <StyledSvg last src={pinterest} alt='pinterest' /> 
             </SlyledSocial>
-            <StyledGreen/>
-            <div className={styles.yellowCartoon} />
-            </StyledFooter >
+            <StyledCartoon />
+        </StyledFooter >
 )}
 }
 
